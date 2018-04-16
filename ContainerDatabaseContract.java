@@ -1,8 +1,3 @@
-package com.cardinal.mda.Models.DatabaseContracts;
-
-import android.net.Uri;
-import android.provider.BaseColumns;
-
 /**
  * Created by Chris Scherer on 4/10/18.
  */

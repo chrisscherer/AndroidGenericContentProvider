@@ -1,28 +1,3 @@
-package com.cardinal.mda.DataProvider;
-
-import android.content.ContentProvider;
-import android.content.ContentUris;
-import android.content.ContentValues;
-import android.content.UriMatcher;
-import android.database.Cursor;
-import android.database.MatrixCursor;
-import android.net.Uri;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-
-import com.cardinal.mda.Enums.ProviderTable;
-import com.cardinal.mda.Interfaces.IDTO;
-import com.cardinal.mda.Models.DatabaseContracts.BaseDatabaseContract;
-import com.cardinal.mda.Models.DatabaseContracts.ContainerDatabaseContract;
-import com.cardinal.mda.util.Mapper;
-import com.cardinal.mda.util.RealmService;
-
-import java.lang.reflect.Field;
-
-import io.realm.Realm;
-import io.realm.RealmObject;
-import io.realm.RealmResults;
-
 /**
  * Created by Chris Scherer on 4/10/18.
  */

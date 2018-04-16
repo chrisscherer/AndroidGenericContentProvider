@@ -1,13 +1,3 @@
-package com.cardinal.mda.util;
-
-import android.app.IntentService;
-import android.content.ContentValues;
-import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
-import android.support.annotation.Nullable;
-import android.util.Log;
-
 /**
  * Created by Chris Scherer on 4/10/18.
  */

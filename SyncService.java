@@ -1,15 +1,3 @@
-package com.cardinal.mda.util;
-
-import android.app.Service;
-import android.content.Intent;
-import android.os.IBinder;
-import android.support.annotation.Nullable;
-
-import com.cardinal.mda.Interfaces.IDTO;
-import com.cardinal.mda.SyncAdapters.GenericSyncAdapter;
-
-import io.realm.RealmObject;
-
 /**
  * Created by Chris Scherer on 4/11/18.
  */

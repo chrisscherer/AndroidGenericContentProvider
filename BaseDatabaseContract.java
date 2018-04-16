@@ -1,15 +1,10 @@
-package com.cardinal.mda.Models.DatabaseContracts;
-
-import android.database.Cursor;
-import android.net.Uri;
-
 /**
  * Created by Chris Scherer on 4/10/18.
  */
 public class BaseDatabaseContract {
 
 	//Unique authority string for the content provider
-	public static final String CONTENT_AUTHORITY = "com.cardinal.mda";
+	public static final String CONTENT_AUTHORITY = "com.example.example";
 
 	/* Helpers to retrieve column values */
 	public static String getColumnString(Cursor cursor, String columnName) {
